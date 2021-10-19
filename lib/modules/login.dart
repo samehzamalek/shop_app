@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shop_app/cubit/login/cubit.dart';
 import 'package:shop_app/cubit/login/states.dart';
 import 'package:shop_app/layout/shop.dart';
+import 'package:shop_app/modules/register.dart';
 import 'package:shop_app/remote_network/cach_helper.dart';
 import 'package:shop_app/shared/component.dart';
 import 'package:shop_app/shared/constant.dart';
@@ -114,7 +115,7 @@ class LoginScreen extends StatelessWidget {
                           ),
                           TextButton(
                               onPressed: () {
-                               // navigateTo(context, RegisterScreen());
+                                navigateTo(context, RegisterScreen());
                               },
                               child: const Text('Register Now')
                           ),

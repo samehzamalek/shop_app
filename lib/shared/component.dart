@@ -48,7 +48,7 @@ Widget defaultButton({
   double? width = double.infinity,
 
 }) => Container(
-  height: 40,
+  height: 50,
   width: width,
   decoration: const BoxDecoration(
     color: Colors.red,
