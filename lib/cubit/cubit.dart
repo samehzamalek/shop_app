@@ -58,7 +58,7 @@ class ShopCubit extends Cubit<ShopStates> {
     const AccountScreen(),
       CartScreen(),
   ];
-  Icon favoriteIcon =const Icon (Icons.favorite,color: Colors.red,);
+  Icon favoriteIcon =const Icon (Icons.favorite,color: Colors.blue,);
   Icon unFavoriteIcon =const Icon (Icons.favorite_border_rounded);
   List<BottomNavigationBarItem> navBar =
   [

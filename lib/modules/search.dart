@@ -41,7 +41,7 @@ class SearchScreen extends StatelessWidget {
                           decoration: const InputDecoration(
                             hintText: 'What are you looking for ?',
                             hintStyle: TextStyle(fontSize: 15),
-                            prefixIcon: Icon(Icons.search,color: Colors.red,),
+                            prefixIcon: Icon(Icons.search,color: Colors.blue,),
                           ),
                           onChanged: (value) {
                             cubit.getSearchData(value);

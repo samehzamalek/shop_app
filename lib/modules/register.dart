@@ -95,7 +95,7 @@ class RegisterScreen extends StatelessWidget {
                                 }
                               }
                           ),
-                          const SizedBox(height: 40,),
+                          const SizedBox(height: 25,),
                           defaultFormField(
                               context: context,
                               controller: phone,
@@ -109,7 +109,7 @@ class RegisterScreen extends StatelessWidget {
                                 }
                               }
                           ),
-                          const SizedBox(height: 40,),
+                          const SizedBox(height: 25,),
 
                           defaultFormField(
                               context: context,
@@ -124,7 +124,7 @@ class RegisterScreen extends StatelessWidget {
                                 }
                               }
                           ),
-                          const SizedBox(height: 40,),
+                          const SizedBox(height: 25,),
                           defaultFormField(
                               context: context,
                               controller: password,
@@ -144,7 +144,7 @@ class RegisterScreen extends StatelessWidget {
                                 SignInCubit.get(context).changeSuffixIcon(context);
                               }
                           ),
-                          const SizedBox(height: 40,),
+                          const SizedBox(height: 25,),
                           defaultFormField(
                               context: context,
                               controller: confirmPassword,

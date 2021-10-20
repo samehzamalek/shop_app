@@ -61,7 +61,7 @@ class LoginScreen extends StatelessWidget {
                           }
                       ),
                       const SizedBox(
-                        height: 40,
+                        height: 25,
                       ),
                       defaultFormField(
                           context: context,

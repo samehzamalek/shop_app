@@ -18,6 +18,7 @@ Widget defaultFormField({
   suffixPressed,
 }) =>
     TextFormField(
+
       controller: controller,
       keyboardType: keyboardType,
       obscureText: isPassword,
@@ -30,12 +31,13 @@ Widget defaultFormField({
       textCapitalization: TextCapitalization.words,
       textAlignVertical: TextAlignVertical.center,
       style:Theme.of(context).textTheme.bodyText1,
-      initialValue:initialValue ,
+      initialValue:initialValue,
+
       //textCapitalization: TextCapitalization.words,
 
       decoration: InputDecoration(
         hintText: label,
-        border:const UnderlineInputBorder(),
+        border:const OutlineInputBorder(),
         prefixIcon: Icon(prefix,),
         suffixIcon: suffix != null ? IconButton(onPressed: suffixPressed, icon: Icon(suffix)) : null,
 
